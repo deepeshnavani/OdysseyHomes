@@ -1259,7 +1259,7 @@ body.single .greennature-blog-full{ border-bottom: 0px; }
 	line-height: 26px; text-align: center; margin: 0px auto; border-width: 1px; border-style: solid;
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; }
 .list-with-icon .list-with-icon-icon i{ margin: 0px; }
-.list-with-icon .list-with-icon-title{ overflow: hidden; font-size: 17px; font-weight: 800; 
+.list-with-icon .list-with-icon-title{ overflow: hidden; font-size: 13px; font-weight: 800; 
 	margin-bottom: 15px; text-transform: uppercase; letter-spacing: 2px; }
 .list-with-icon .list-with-icon-content{ overflow: hidden; }
 	
