@@ -11,6 +11,34 @@
 
     <title>Odyssey Homes</title>
 
+    <style>
+        .listHead {
+            font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-left: 30px;
+            color: #333;
+        }
+
+        .ulDestinations {
+            list-style: none;
+            font-size: 14px;
+        }
+
+        .listItems {
+            margin-bottom: 10px;
+        }
+
+        .listItemsSpan {
+            font-weight: 400;
+            display: block;
+        }
+
+        .listItemsHorizontalLine {
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 10px 0;
+        }
+    </style>
+
 
     <link rel='stylesheet'
         href='https://fonts.googleapis.com/css?family=Lato%3A100%2C100italic%2C300%2C300italic%2Cregular%2Citalic%2C700%2C700italic%2C900%2C900italic&amp;subset=latin&amp;'
@@ -522,7 +550,7 @@
                                 <div class="six columns">
                                     <div class="greennature-item greennature-about-us-item greennature-normal">
                                         <div class="about-us-title-wrapper">
-                                            <h3 class="about-us-title">Who Are We Working For?</h3>
+                                            <h3 class="about-us-title">About Igatpuri</h3>
                                             <div class="about-us-caption greennature-title-font greennature-skin-info">
                                             </div>
                                             <div class="about-us-title-divider"></div>
@@ -539,10 +567,17 @@
                                                     and any other fancies you wish to build. You buy into a land filled
                                                     with natural beauty.</p>
                                                 <p><strong>Own an exclusive plot of land that can be built to your taste
-                                                        and specification</strong></p>
+                                                        and specification.</strong></p>
                                             </div>
-                                        </div><a class="about-us-read-more greennature-button" href="#">Download
-                                            Brochure</a>
+                                        </div>
+
+                                        <div style="display: flex;">
+                                            <pre>3 Estates  |  6 Villas  |  1 vadoo</pre>
+                                        </div>
+
+                                        <a class="about-us-read-more greennature-button"
+                                            href="C:\Odyssey\Project\OdysseyHomes\docs\1.pdf"
+                                            onclick="downloadPDF()">Download Brochure</a>
                                     </div>
                                 </div>
                                 <div class="clear"></div>
@@ -640,6 +675,64 @@
             <!-- greennature-content -->
             <div class="clear"></div>
         </div>
+
+        <section id="content-section-5">
+            <div class="greennature-color-wrapper  gdlr-show-all greennature-skin-service-half greennature-half-bg-wrapper"
+                style="background-color: #fff; padding-bottom: 20px;">
+                <div class="container">
+                    <div class="six columns">
+                        <div class="greennature-item greennature-content-item"></div>
+                    </div>
+                    <div class="six columns">
+                        <div class="greennature-item greennature-icon-with-list-item">
+                            <i>
+                                <h2 class="listHead">Neighbourhood</h2>
+                            </i>
+                            <ul class="ulDestinations">
+                                <li class="listItems" aria-level="1"><strong>Whispering
+                                        Cafe:</strong><span class="listItemsSpan"> ~5 minute drive</span></li>
+                                <hr class="listItemsHorizontalLine" />
+                                <li aria-level="1" class="listItems"><strong>Prose Patisserie and
+                                        Café:</strong><span class="listItemsSpan"> ~5 minutes drive</span></li>
+                                <hr class="listItemsHorizontalLine" />
+                                <li aria-level="1" class="listItems"><strong>7 Short 1 Long:</strong><span
+                                        class="listItemsSpan"> ~15 minutes drive</span></li>
+                                <hr class="listItemsHorizontalLine" />
+                                <li aria-level="1" class="listItems"><strong>Cube Gallery:</strong><span
+                                        class="listItemsSpan"> ~15 minutes drive</span></li>
+                                <hr class="listItemsHorizontalLine" />
+                                <li aria-level="1" class="listItems"><strong>Gunpowder:</strong><span
+                                        class="listItemsSpan"> ~25 minutes drive</span></li>
+                                <hr class="listItemsHorizontalLine" />
+                                <li aria-level="1" class="listItems"><strong>Rangeela:</strong><span
+                                        class="listItemsSpan"> ~25 minutes drive</span></li>
+                                <hr class="listItemsHorizontalLine" />
+                                <li aria-level="1" class="listItems"><strong>Vagator beach:</strong><span
+                                        class="listItemsSpan"> ~35 minutes drive</span></li>
+                                <hr class="listItemsHorizontalLine" />
+                                <li aria-level="1" class="listItems"><strong>Mopa International
+                                        Airport:</strong><span class="listItemsSpan"> ~35 minutes drive</span></li>
+                                <hr class="listItemsHorizontalLine" />
+                                <li aria-level="1" class="listItems"><strong>Morjim beach:</strong><span
+                                        class="listItemsSpan"> ~40 minutes drive</span></li>
+                                <hr class="listItemsHorizontalLine" />
+                                <li aria-level="1" class="listItems"><strong>Dabolim Airport:</strong><span
+                                        class="listItemsSpan"> ~60 minutes drive</span></li>
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="greennature-half-bg greennature-bg-solid"
+                        style="display:flex; justify-content: center;align-items: center;">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30052.66132706135!2d73.54785737338563!3d19.68780242537225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdd8429ffe9bcbb%3A0x264735325a20fa4d!2sIgatpuri%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1722250067731!5m2!1sen!2sin"
+                            width="700" height="450" style="border:0;margin:auto;display: block;" allowfullscreen=""
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </section>
 
         <footer class="footer-wrapper">
             <div class="footer-container container">
